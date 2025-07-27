@@ -7,7 +7,7 @@ load_dotenv()
 
 class Settings(BaseSettings):
     # API Keys
-    GEMINI_API_KEY: Optional[str] = os.getenv("AIzaSyCySUjbUHrdLz1teFok_nAePXLJnefHZM0")
+    GEMINI_API_KEY: Optional[str] = os.getenv("")
     
     # Database
     MONGODB_URL: str = os.getenv("MONGODB_URL", "mongodb://localhost:27017")
